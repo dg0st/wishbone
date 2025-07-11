@@ -5,64 +5,50 @@
 - [Design](https://www.figma.com/design/wyJGrJ8n5Z5qUySpXAK8mA/Wishbone?node-id=0-1&t=EQydxqapHMMdiiIw-1)
 - [Demo](https://crashtheroutines.github.io/wishboneportfolio)
 
-# Wishbone+Partners — Multi-format Template
+# Wishbone+Partners — Мультиформатный шаблон
 
-This repository contains several implementations of one landing page **Wishbone+Partners**, including:
+Этот репозиторий содержит несколько реализаций одной целевой страницы **Wishbone+Partners**, включая:
 
-- Pure HTML/SCSS/JS layout
-- WordPress theme
-- Django version
-- React version _(in development)_
+- Макет на чистом HTML/SCSS/JS
+- Тема WordPress
+- Версия на Django
 
 ---
 
-## Project structure
+## Структура проекта
 
 ```bash
 Wishbone+Partners /
 ├── assets/           # Common styles, scripts, images
-├── ru/               # Russian HTML version
 ├── wp-theme/         # WordPress theme
 ├── django-version/   # Django application
-└── README.md         # This file
+└── README.md         # Этот файл
 ```
 
 ---
 
-## Usage
+## Использовано
 
 ### HTML
 
-Open `html-version/index.html` in a browser. All styles and scripts are included from `../assets`.
+Откройте `index.html` в браузере. Все стили и скрипты включены из `./assets`.
 
 ### WordPress
 
-1. Go to `wp-theme/`
-2. Copy the folder to `wp-content/themes/` of your WordPress site
-3. Activate the theme via the admin panel
+1. Перейдите в `wp-theme/`
+2. Скопируйте папку в `wp-content/themes/` вашего сайта WordPress
+3. Активируйте тему через панель администратора
 
 ### Django
 
-1. Go to `django-version/`
-2. Install dependencies:
+1. Перейдите в `django-version/`
+2. Установите зависимости:
 
 ```bash
 pip install -r requirements.txt
 
 ```
 
-## Features
-
-- Unified layout for different stacks
-- Convenient structure for support
-- Quick switching between formats
-
-## In development
-
-- React version
-- Generating templates for CMS
-- Possibility of API connection
-
 ## Author
 
-Developed by CrashTheRoutines
+Developed by dg0st
